@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-kbuimw*udwmp5_^e&8eq!m3ke)yf#utpjmclqma48m!p)b=s%y
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['mylibreria.azurewebsites.net']
 
 
 # Application definition
@@ -137,6 +137,8 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 LOGIN_URL = 'signin'
 
 LOGIN_REDIRECT_URL = 'home'
+
+
 
 
 
